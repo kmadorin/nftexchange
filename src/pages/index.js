@@ -14,7 +14,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico"/>
 			</Head>
 			<div>
-				{accountData.address}
+				{accountData?.address}
 			</div>
 		</div>
 	)
